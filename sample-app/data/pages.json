@@ -1,0 +1,941 @@
+{
+  "appTitle": "My World Flashcards",
+  "subtitle": "Sample Personalized Flashcard App",
+  "pages": [
+    {
+      "id": "about-me",
+      "title": "About Me",
+      "group": "Noah",
+      "thumbnail": "./assets/thumbs/about-me.jpg",
+      "cards": [
+        {
+          "id": "about-me-1",
+          "title": "Hi, my name is Noah",
+          "displayPhrase": "Hi, my name is Noah.",
+          "spokenPhrase": "Hi, my name is Noah.",
+          "image": "./assets/cards/about-me/01-hi-my-name-is-noah.jpg",
+          "audio": "./assets/audio/hi-my-name-is-noah.mp3",
+          "number": 1
+        },
+        {
+          "id": "about-me-2",
+          "title": "I am three years old",
+          "displayPhrase": "I am three years old.",
+          "spokenPhrase": "I am three years old.",
+          "image": "./assets/cards/about-me/02-i-am-three-years-old.jpg",
+          "audio": "./assets/audio/i-am-three-years-old.mp3",
+          "number": 2
+        },
+        {
+          "id": "about-me-3",
+          "title": "I am happy",
+          "displayPhrase": "I am happy.",
+          "spokenPhrase": "I am happy.",
+          "image": "./assets/cards/about-me/03-i-am-happy.jpg",
+          "audio": "./assets/audio/i-am-happy.mp3",
+          "number": 3
+        },
+        {
+          "id": "about-me-4",
+          "title": "I can say hello",
+          "displayPhrase": "I can say hello.",
+          "spokenPhrase": "I can say hello.",
+          "image": "./assets/cards/about-me/04-i-can-say-hello.jpg",
+          "audio": "./assets/audio/i-can-say-hello.mp3",
+          "number": 4
+        },
+        {
+          "id": "about-me-5",
+          "title": "Bye-bye, see you later",
+          "displayPhrase": "Bye-bye, see you later.",
+          "spokenPhrase": "Bye-bye, see you later.",
+          "image": "./assets/cards/about-me/05-bye-bye-see-you-later.jpg",
+          "audio": "./assets/audio/bye-bye-see-you-later.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "my-family",
+      "title": "My Family",
+      "group": "Family",
+      "thumbnail": "./assets/thumbs/my-family.jpg",
+      "cards": [
+        {
+          "id": "my-family-1",
+          "title": "This is my mommy",
+          "displayPhrase": "This is my mommy.",
+          "spokenPhrase": "This is my mommy.",
+          "image": "./assets/cards/my-family/01-this-is-my-mommy.jpg",
+          "audio": "./assets/audio/this-is-my-mommy.mp3",
+          "number": 1
+        },
+        {
+          "id": "my-family-2",
+          "title": "This is my daddy",
+          "displayPhrase": "This is my daddy.",
+          "spokenPhrase": "This is my daddy.",
+          "image": "./assets/cards/my-family/02-this-is-my-daddy.jpg",
+          "audio": "./assets/audio/this-is-my-daddy.mp3",
+          "number": 2
+        },
+        {
+          "id": "my-family-3",
+          "title": "This is my grandma",
+          "displayPhrase": "This is my grandma.",
+          "spokenPhrase": "This is my grandma.",
+          "image": "./assets/cards/my-family/03-this-is-my-grandma.jpg",
+          "audio": "./assets/audio/this-is-my-grandma.mp3",
+          "number": 3
+        },
+        {
+          "id": "my-family-4",
+          "title": "This is my grandpa",
+          "displayPhrase": "This is my grandpa.",
+          "spokenPhrase": "This is my grandpa.",
+          "image": "./assets/cards/my-family/04-this-is-my-grandpa.jpg",
+          "audio": "./assets/audio/this-is-my-grandpa.mp3",
+          "number": 4
+        },
+        {
+          "id": "my-family-5",
+          "title": "I love my family",
+          "displayPhrase": "I love my family.",
+          "spokenPhrase": "I love my family.",
+          "image": "./assets/cards/my-family/05-i-love-my-family.jpg",
+          "audio": "./assets/audio/i-love-my-family.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "what-i-need",
+      "title": "What I Need",
+      "group": "Needs",
+      "thumbnail": "./assets/thumbs/what-i-need.jpg",
+      "cards": [
+        {
+          "id": "what-i-need-1",
+          "title": "I want water, please",
+          "displayPhrase": "I want water, please.",
+          "spokenPhrase": "I want water please.",
+          "audioPrompt": "I want water please.",
+          "image": "./assets/cards/what-i-need/01-i-want-water-please.jpg",
+          "audio": "./assets/audio/i-want-water-please.mp3",
+          "number": 1
+        },
+        {
+          "id": "what-i-need-2",
+          "title": "I want a snack, please",
+          "displayPhrase": "I want a snack, please.",
+          "spokenPhrase": "I want a snack please.",
+          "audioPrompt": "I want a snack please.",
+          "image": "./assets/cards/what-i-need/02-i-want-a-snack-please.jpg",
+          "audio": "./assets/audio/i-want-a-snack-please.mp3",
+          "number": 2
+        },
+        {
+          "id": "what-i-need-3",
+          "title": "I need help, please",
+          "displayPhrase": "I need help, please.",
+          "spokenPhrase": "I need help please.",
+          "audioPrompt": "I need help please.",
+          "image": "./assets/cards/what-i-need/03-i-need-help-please.jpg",
+          "audio": "./assets/audio/i-need-help-please.mp3",
+          "number": 3
+        },
+        {
+          "id": "what-i-need-4",
+          "title": "I need to go potty",
+          "displayPhrase": "I need to go potty.",
+          "spokenPhrase": "I need to go potty.",
+          "image": "./assets/cards/what-i-need/04-i-need-to-go-potty.jpg",
+          "audio": "./assets/audio/i-need-to-go-potty.mp3",
+          "number": 4
+        },
+        {
+          "id": "what-i-need-5",
+          "title": "I am tired",
+          "displayPhrase": "I am tired.",
+          "spokenPhrase": "I am tired.",
+          "image": "./assets/cards/what-i-need/05-i-am-tired.jpg",
+          "audio": "./assets/audio/i-am-tired.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "things-i-do",
+      "title": "Things I Do",
+      "group": "Routines",
+      "thumbnail": "./assets/thumbs/things-i-do.jpg",
+      "cards": [
+        {
+          "id": "things-i-do-1",
+          "title": "I am playing",
+          "displayPhrase": "I am playing.",
+          "spokenPhrase": "I am playing.",
+          "image": "./assets/cards/things-i-do/01-i-am-playing.jpg",
+          "audio": "./assets/audio/i-am-playing.mp3",
+          "number": 1
+        },
+        {
+          "id": "things-i-do-2",
+          "title": "I am reading",
+          "displayPhrase": "I am reading.",
+          "spokenPhrase": "I am reading.",
+          "image": "./assets/cards/things-i-do/02-i-am-reading.jpg",
+          "audio": "./assets/audio/i-am-reading.mp3",
+          "number": 2
+        },
+        {
+          "id": "things-i-do-3",
+          "title": "I am brushing my teeth",
+          "displayPhrase": "I am brushing my teeth.",
+          "spokenPhrase": "I am brushing my teeth.",
+          "image": "./assets/cards/things-i-do/03-i-am-brushing-my-teeth.jpg",
+          "audio": "./assets/audio/i-am-brushing-my-teeth.mp3",
+          "number": 3
+        },
+        {
+          "id": "things-i-do-4",
+          "title": "I am getting dressed",
+          "displayPhrase": "I am getting dressed.",
+          "spokenPhrase": "I am getting dressed.",
+          "image": "./assets/cards/things-i-do/04-i-am-getting-dressed.jpg",
+          "audio": "./assets/audio/i-am-getting-dressed.mp3",
+          "number": 4
+        },
+        {
+          "id": "things-i-do-5",
+          "title": "I am going to bed",
+          "displayPhrase": "I am going to bed.",
+          "spokenPhrase": "I am going to bed.",
+          "image": "./assets/cards/things-i-do/05-i-am-going-to-bed.jpg",
+          "audio": "./assets/audio/i-am-going-to-bed.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "mommy-and-me",
+      "title": "Mommy and Me",
+      "group": "Family",
+      "thumbnail": "./assets/thumbs/mommy-and-me.jpg",
+      "cards": [
+        {
+          "id": "mommy-and-me-1",
+          "title": "Mommy is hugging me",
+          "displayPhrase": "Mommy is hugging me.",
+          "spokenPhrase": "Mommy is hugging me.",
+          "image": "./assets/cards/mommy-and-me/01-mommy-is-hugging-me.jpg",
+          "audio": "./assets/audio/mommy-is-hugging-me.mp3",
+          "number": 1
+        },
+        {
+          "id": "mommy-and-me-2",
+          "title": "Mommy is holding my hand",
+          "displayPhrase": "Mommy is holding my hand.",
+          "spokenPhrase": "Mommy is holding my hand.",
+          "image": "./assets/cards/mommy-and-me/02-mommy-is-holding-my-hand.jpg",
+          "audio": "./assets/audio/mommy-is-holding-my-hand.mp3",
+          "number": 2
+        },
+        {
+          "id": "mommy-and-me-3",
+          "title": "Mommy is reading to me",
+          "displayPhrase": "Mommy is reading to me.",
+          "spokenPhrase": "Mommy is reading to me.",
+          "image": "./assets/cards/mommy-and-me/03-mommy-is-reading-to-me.jpg",
+          "audio": "./assets/audio/mommy-is-reading-to-me.mp3",
+          "number": 3
+        },
+        {
+          "id": "mommy-and-me-4",
+          "title": "Mommy is helping me",
+          "displayPhrase": "Mommy is helping me.",
+          "spokenPhrase": "Mommy is helping me.",
+          "image": "./assets/cards/mommy-and-me/04-mommy-is-helping-me.jpg",
+          "audio": "./assets/audio/mommy-is-helping-me.mp3",
+          "number": 4
+        },
+        {
+          "id": "mommy-and-me-5",
+          "title": "Mommy is playing with me",
+          "displayPhrase": "Mommy is playing with me.",
+          "spokenPhrase": "Mommy is playing with me.",
+          "image": "./assets/cards/mommy-and-me/05-mommy-is-playing-with-me.jpg",
+          "audio": "./assets/audio/mommy-is-playing-with-me.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "daddy-and-me",
+      "title": "Daddy and Me",
+      "group": "Family",
+      "thumbnail": "./assets/thumbs/daddy-and-me.jpg",
+      "cards": [
+        {
+          "id": "daddy-and-me-1",
+          "title": "Daddy is giving me a high five",
+          "displayPhrase": "Daddy is giving me a high five.",
+          "spokenPhrase": "Daddy is giving me a high five.",
+          "image": "./assets/cards/daddy-and-me/01-daddy-is-giving-me-a-high-five.jpg",
+          "audio": "./assets/audio/daddy-is-giving-me-a-high-five.mp3",
+          "number": 1
+        },
+        {
+          "id": "daddy-and-me-2",
+          "title": "Daddy is reading to me",
+          "displayPhrase": "Daddy is reading to me.",
+          "spokenPhrase": "Daddy is reading to me.",
+          "image": "./assets/cards/daddy-and-me/02-daddy-is-reading-to-me.jpg",
+          "audio": "./assets/audio/daddy-is-reading-to-me.mp3",
+          "number": 2
+        },
+        {
+          "id": "daddy-and-me-3",
+          "title": "Daddy is helping me",
+          "displayPhrase": "Daddy is helping me.",
+          "spokenPhrase": "Daddy is helping me.",
+          "image": "./assets/cards/daddy-and-me/03-daddy-is-helping-me.jpg",
+          "audio": "./assets/audio/daddy-is-helping-me.mp3",
+          "number": 3
+        },
+        {
+          "id": "daddy-and-me-4",
+          "title": "Daddy is playing with me",
+          "displayPhrase": "Daddy is playing with me.",
+          "spokenPhrase": "Daddy is playing with me.",
+          "image": "./assets/cards/daddy-and-me/04-daddy-is-playing-with-me.jpg",
+          "audio": "./assets/audio/daddy-is-playing-with-me.mp3",
+          "number": 4
+        },
+        {
+          "id": "daddy-and-me-5",
+          "title": "Daddy is walking with me",
+          "displayPhrase": "Daddy is walking with me.",
+          "spokenPhrase": "Daddy is walking with me.",
+          "image": "./assets/cards/daddy-and-me/05-daddy-is-walking-with-me.jpg",
+          "audio": "./assets/audio/daddy-is-walking-with-me.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "grandma-and-me",
+      "title": "Grandma and Me",
+      "group": "Family",
+      "thumbnail": "./assets/thumbs/grandma-and-me.jpg",
+      "cards": [
+        {
+          "id": "grandma-and-me-1",
+          "title": "Grandma is clapping for me",
+          "displayPhrase": "Grandma is clapping for me.",
+          "spokenPhrase": "Grandma is clapping for me.",
+          "image": "./assets/cards/grandma-and-me/01-grandma-is-clapping-for-me.jpg",
+          "audio": "./assets/audio/grandma-is-clapping-for-me.mp3",
+          "number": 1
+        },
+        {
+          "id": "grandma-and-me-2",
+          "title": "Grandma is reading to me",
+          "displayPhrase": "Grandma is reading to me.",
+          "spokenPhrase": "Grandma is reading to me.",
+          "image": "./assets/cards/grandma-and-me/02-grandma-is-reading-to-me.jpg",
+          "audio": "./assets/audio/grandma-is-reading-to-me.mp3",
+          "number": 2
+        },
+        {
+          "id": "grandma-and-me-3",
+          "title": "Grandma is smiling at me",
+          "displayPhrase": "Grandma is smiling at me.",
+          "spokenPhrase": "Grandma is smiling at me.",
+          "image": "./assets/cards/grandma-and-me/03-grandma-is-smiling-at-me.jpg",
+          "audio": "./assets/audio/grandma-is-smiling-at-me.mp3",
+          "number": 3
+        },
+        {
+          "id": "grandma-and-me-4",
+          "title": "Grandma is helping me",
+          "displayPhrase": "Grandma is helping me.",
+          "spokenPhrase": "Grandma is helping me.",
+          "image": "./assets/cards/grandma-and-me/04-grandma-is-helping-me.jpg",
+          "audio": "./assets/audio/grandma-is-helping-me.mp3",
+          "number": 4
+        },
+        {
+          "id": "grandma-and-me-5",
+          "title": "Grandma is hugging me",
+          "displayPhrase": "Grandma is hugging me.",
+          "spokenPhrase": "Grandma is hugging me.",
+          "image": "./assets/cards/grandma-and-me/05-grandma-is-hugging-me.jpg",
+          "audio": "./assets/audio/grandma-is-hugging-me.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "grandpa-and-me",
+      "title": "Grandpa and Me",
+      "group": "Family",
+      "thumbnail": "./assets/thumbs/grandpa-and-me.jpg",
+      "cards": [
+        {
+          "id": "grandpa-and-me-1",
+          "title": "Grandpa is playing with me",
+          "displayPhrase": "Grandpa is playing with me.",
+          "spokenPhrase": "Grandpa is playing with me.",
+          "image": "./assets/cards/grandpa-and-me/01-grandpa-is-playing-with-me.jpg",
+          "audio": "./assets/audio/grandpa-is-playing-with-me.mp3",
+          "number": 1
+        },
+        {
+          "id": "grandpa-and-me-2",
+          "title": "Grandpa is giving me a high five",
+          "displayPhrase": "Grandpa is giving me a high five.",
+          "spokenPhrase": "Grandpa is giving me a high five.",
+          "image": "./assets/cards/grandpa-and-me/02-grandpa-is-giving-me-a-high-five.jpg",
+          "audio": "./assets/audio/grandpa-is-giving-me-a-high-five.mp3",
+          "number": 2
+        },
+        {
+          "id": "grandpa-and-me-3",
+          "title": "Grandpa is walking with me",
+          "displayPhrase": "Grandpa is walking with me.",
+          "spokenPhrase": "Grandpa is walking with me.",
+          "image": "./assets/cards/grandpa-and-me/03-grandpa-is-walking-with-me.jpg",
+          "audio": "./assets/audio/grandpa-is-walking-with-me.mp3",
+          "number": 3
+        },
+        {
+          "id": "grandpa-and-me-4",
+          "title": "Grandpa is waving to me",
+          "displayPhrase": "Grandpa is waving to me.",
+          "spokenPhrase": "Grandpa is waving to me.",
+          "image": "./assets/cards/grandpa-and-me/04-grandpa-is-waving-to-me.jpg",
+          "audio": "./assets/audio/grandpa-is-waving-to-me.mp3",
+          "number": 4
+        },
+        {
+          "id": "grandpa-and-me-5",
+          "title": "Grandpa is helping me",
+          "displayPhrase": "Grandpa is helping me.",
+          "spokenPhrase": "Grandpa is helping me.",
+          "image": "./assets/cards/grandpa-and-me/05-grandpa-is-helping-me.jpg",
+          "audio": "./assets/audio/grandpa-is-helping-me.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "foods-drinks",
+      "title": "Foods & Drinks",
+      "group": "Needs",
+      "thumbnail": "./assets/thumbs/foods-drinks.jpg",
+      "cards": [
+        {
+          "id": "foods-drinks-1",
+          "title": "I want water, please",
+          "displayPhrase": "I want water, please.",
+          "spokenPhrase": "I want water please.",
+          "audioPrompt": "I want water please.",
+          "image": "./assets/cards/foods-drinks/01-i-want-water-please.jpg",
+          "audio": "./assets/audio/i-want-water-please.mp3",
+          "number": 1
+        },
+        {
+          "id": "foods-drinks-2",
+          "title": "I am eating cereal",
+          "displayPhrase": "I am eating cereal.",
+          "spokenPhrase": "I am eating cereal.",
+          "image": "./assets/cards/foods-drinks/02-i-am-eating-cereal.jpg",
+          "audio": "./assets/audio/i-am-eating-cereal.mp3",
+          "number": 2
+        },
+        {
+          "id": "foods-drinks-3",
+          "title": "I am eating pancakes",
+          "displayPhrase": "I am eating pancakes.",
+          "spokenPhrase": "I am eating pancakes.",
+          "image": "./assets/cards/foods-drinks/03-i-am-eating-pancakes.jpg",
+          "audio": "./assets/audio/i-am-eating-pancakes.mp3",
+          "number": 3
+        },
+        {
+          "id": "foods-drinks-4",
+          "title": "I am eating fruit",
+          "displayPhrase": "I am eating fruit.",
+          "spokenPhrase": "I am eating fruit.",
+          "image": "./assets/cards/foods-drinks/04-i-am-eating-fruit.jpg",
+          "audio": "./assets/audio/i-am-eating-fruit.mp3",
+          "number": 4
+        },
+        {
+          "id": "foods-drinks-5",
+          "title": "I am drinking milk",
+          "displayPhrase": "I am drinking milk.",
+          "spokenPhrase": "I am drinking milk.",
+          "image": "./assets/cards/foods-drinks/05-i-am-drinking-milk.jpg",
+          "audio": "./assets/audio/i-am-drinking-milk.mp3",
+          "number": 5
+        },
+        {
+          "id": "foods-drinks-6",
+          "title": "I want a snack, please",
+          "displayPhrase": "I want a snack, please.",
+          "spokenPhrase": "I want a snack please.",
+          "audioPrompt": "I want a snack please.",
+          "image": "./assets/cards/foods-drinks/06-i-want-a-snack-please.jpg",
+          "audio": "./assets/audio/i-want-a-snack-please.mp3",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "animals-actions",
+      "title": "Animals & Actions",
+      "group": "Animals",
+      "thumbnail": "./assets/thumbs/animals-actions.jpg",
+      "cards": [
+        {
+          "id": "animals-actions-1",
+          "title": "The rabbit is hopping",
+          "displayPhrase": "The rabbit is hopping.",
+          "spokenPhrase": "The rabbit is hopping.",
+          "image": "./assets/cards/animals-actions/01-the-rabbit-is-hopping.jpg",
+          "audio": "./assets/audio/the-rabbit-is-hopping.mp3",
+          "number": 1
+        },
+        {
+          "id": "animals-actions-2",
+          "title": "The dog is barking",
+          "displayPhrase": "The dog is barking.",
+          "spokenPhrase": "The dog is barking.",
+          "image": "./assets/cards/animals-actions/02-the-dog-is-barking.jpg",
+          "audio": "./assets/audio/the-dog-is-barking.mp3",
+          "number": 2
+        },
+        {
+          "id": "animals-actions-3",
+          "title": "The cat is purring",
+          "displayPhrase": "The cat is purring.",
+          "spokenPhrase": "The cat is purring.",
+          "image": "./assets/cards/animals-actions/03-the-cat-is-purring.jpg",
+          "audio": "./assets/audio/the-cat-is-purring.mp3",
+          "number": 3
+        },
+        {
+          "id": "animals-actions-4",
+          "title": "The bird is flying",
+          "displayPhrase": "The bird is flying.",
+          "spokenPhrase": "The bird is flying.",
+          "image": "./assets/cards/animals-actions/04-the-bird-is-flying.jpg",
+          "audio": "./assets/audio/the-bird-is-flying.mp3",
+          "number": 4
+        },
+        {
+          "id": "animals-actions-5",
+          "title": "The parrot is screeching",
+          "displayPhrase": "The parrot is screeching.",
+          "spokenPhrase": "The parrot is screeching.",
+          "image": "./assets/cards/animals-actions/05-the-parrot-is-screeching.jpg",
+          "audio": "./assets/audio/the-parrot-is-screeching.mp3",
+          "number": 5
+        },
+        {
+          "id": "animals-actions-6",
+          "title": "The fish is swimming",
+          "displayPhrase": "The fish is swimming.",
+          "spokenPhrase": "The fish is swimming.",
+          "image": "./assets/cards/animals-actions/06-the-fish-is-swimming.jpg",
+          "audio": "./assets/audio/the-fish-is-swimming.mp3",
+          "number": 6
+        },
+        {
+          "id": "animals-actions-7",
+          "title": "The horse is running",
+          "displayPhrase": "The horse is running.",
+          "spokenPhrase": "The horse is running.",
+          "image": "./assets/cards/animals-actions/07-the-horse-is-running.jpg",
+          "audio": "./assets/audio/the-horse-is-running.mp3",
+          "number": 7
+        },
+        {
+          "id": "animals-actions-8",
+          "title": "The frog is jumping",
+          "displayPhrase": "The frog is jumping.",
+          "spokenPhrase": "The frog is jumping.",
+          "image": "./assets/cards/animals-actions/08-the-frog-is-jumping.jpg",
+          "audio": "./assets/audio/the-frog-is-jumping.mp3",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "daily-routines",
+      "title": "Daily Routines",
+      "group": "Routines",
+      "thumbnail": "./assets/thumbs/daily-routines.jpg",
+      "cards": [
+        {
+          "id": "daily-routines-1",
+          "title": "I am brushing my teeth",
+          "displayPhrase": "I am brushing my teeth.",
+          "spokenPhrase": "I am brushing my teeth.",
+          "image": "./assets/cards/daily-routines/01-i-am-brushing-my-teeth.jpg",
+          "audio": "./assets/audio/i-am-brushing-my-teeth.mp3",
+          "number": 1
+        },
+        {
+          "id": "daily-routines-2",
+          "title": "I am washing my hands",
+          "displayPhrase": "I am washing my hands.",
+          "spokenPhrase": "I am washing my hands.",
+          "image": "./assets/cards/daily-routines/02-i-am-washing-my-hands.jpg",
+          "audio": "./assets/audio/i-am-washing-my-hands.mp3",
+          "number": 2
+        },
+        {
+          "id": "daily-routines-3",
+          "title": "I am getting dressed",
+          "displayPhrase": "I am getting dressed.",
+          "spokenPhrase": "I am getting dressed.",
+          "image": "./assets/cards/daily-routines/03-i-am-getting-dressed.jpg",
+          "audio": "./assets/audio/i-am-getting-dressed.mp3",
+          "number": 3
+        },
+        {
+          "id": "daily-routines-4",
+          "title": "I am cleaning up",
+          "displayPhrase": "I am cleaning up.",
+          "spokenPhrase": "I am cleaning up.",
+          "image": "./assets/cards/daily-routines/04-i-am-cleaning-up.jpg",
+          "audio": "./assets/audio/i-am-cleaning-up.mp3",
+          "number": 4
+        },
+        {
+          "id": "daily-routines-5",
+          "title": "I am going to bed",
+          "displayPhrase": "I am going to bed.",
+          "spokenPhrase": "I am going to bed.",
+          "image": "./assets/cards/daily-routines/05-i-am-going-to-bed.jpg",
+          "audio": "./assets/audio/i-am-going-to-bed.mp3",
+          "number": 5
+        },
+        {
+          "id": "daily-routines-6",
+          "title": "I am going to school",
+          "displayPhrase": "I am going to school.",
+          "spokenPhrase": "I am going to school.",
+          "image": "./assets/cards/daily-routines/06-i-am-going-to-school.jpg",
+          "audio": "./assets/audio/i-am-going-to-school.mp3",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "social-phrases",
+      "title": "Social Phrases",
+      "group": "Communication",
+      "thumbnail": "./assets/thumbs/social-phrases.jpg",
+      "cards": [
+        {
+          "id": "social-phrases-1",
+          "title": "My turn, please",
+          "displayPhrase": "My turn, please.",
+          "spokenPhrase": "My turn please.",
+          "audioPrompt": "My turn please.",
+          "image": "./assets/cards/social-phrases/01-my-turn-please.jpg",
+          "audio": "./assets/audio/my-turn-please.mp3",
+          "number": 1
+        },
+        {
+          "id": "social-phrases-2",
+          "title": "Thank you",
+          "displayPhrase": "Thank you.",
+          "spokenPhrase": "Thank you.",
+          "image": "./assets/cards/social-phrases/02-thank-you.jpg",
+          "audio": "./assets/audio/thank-you.mp3",
+          "number": 2
+        },
+        {
+          "id": "social-phrases-3",
+          "title": "Please help me",
+          "displayPhrase": "Please help me.",
+          "spokenPhrase": "Please help me.",
+          "image": "./assets/cards/social-phrases/03-please-help-me.jpg",
+          "audio": "./assets/audio/please-help-me.mp3",
+          "number": 3
+        },
+        {
+          "id": "social-phrases-4",
+          "title": "Let's play",
+          "displayPhrase": "Let's play.",
+          "spokenPhrase": "Let's play.",
+          "image": "./assets/cards/social-phrases/04-let-s-play.jpg",
+          "audio": "./assets/audio/let-s-play.mp3",
+          "number": 4
+        },
+        {
+          "id": "social-phrases-5",
+          "title": "I did it",
+          "displayPhrase": "I did it.",
+          "spokenPhrase": "I did it.",
+          "image": "./assets/cards/social-phrases/05-i-did-it.jpg",
+          "audio": "./assets/audio/i-did-it.mp3",
+          "number": 5
+        },
+        {
+          "id": "social-phrases-6",
+          "title": "I am sorry",
+          "displayPhrase": "I am sorry.",
+          "spokenPhrase": "I am sorry.",
+          "image": "./assets/cards/social-phrases/06-i-am-sorry.jpg",
+          "audio": "./assets/audio/i-am-sorry.mp3",
+          "number": 6
+        },
+        {
+          "id": "social-phrases-7",
+          "title": "Excuse me",
+          "displayPhrase": "Excuse me.",
+          "spokenPhrase": "Excuse me.",
+          "image": "./assets/cards/social-phrases/07-excuse-me.jpg",
+          "audio": "./assets/audio/excuse-me.mp3",
+          "number": 7
+        },
+        {
+          "id": "social-phrases-8",
+          "title": "Can I have a turn",
+          "displayPhrase": "Can I have a turn?",
+          "spokenPhrase": "Can I have a turn?",
+          "image": "./assets/cards/social-phrases/08-can-i-have-a-turn.jpg",
+          "audio": "./assets/audio/can-i-have-a-turn.mp3",
+          "number": 8
+        }
+      ]
+    },
+    {
+      "id": "favorite-things",
+      "title": "Favorite Things",
+      "group": "Learning",
+      "thumbnail": "./assets/thumbs/favorite-things.jpg",
+      "cards": [
+        {
+          "id": "favorite-things-1",
+          "title": "I like my ball",
+          "displayPhrase": "I like my ball.",
+          "spokenPhrase": "I like my ball.",
+          "image": "./assets/cards/favorite-things/01-i-like-my-ball.jpg",
+          "audio": "./assets/audio/i-like-my-ball.mp3",
+          "number": 1
+        },
+        {
+          "id": "favorite-things-2",
+          "title": "I like my books",
+          "displayPhrase": "I like my books.",
+          "spokenPhrase": "I like my books.",
+          "image": "./assets/cards/favorite-things/02-i-like-my-books.jpg",
+          "audio": "./assets/audio/i-like-my-books.mp3",
+          "number": 2
+        },
+        {
+          "id": "favorite-things-3",
+          "title": "I like music",
+          "displayPhrase": "I like music.",
+          "spokenPhrase": "I like music.",
+          "image": "./assets/cards/favorite-things/03-i-like-music.jpg",
+          "audio": "./assets/audio/i-like-music.mp3",
+          "number": 3
+        },
+        {
+          "id": "favorite-things-4",
+          "title": "I like the playground",
+          "displayPhrase": "I like the playground.",
+          "spokenPhrase": "I like the playground.",
+          "image": "./assets/cards/favorite-things/04-i-like-the-playground.jpg",
+          "audio": "./assets/audio/i-like-the-playground.mp3",
+          "number": 4
+        },
+        {
+          "id": "favorite-things-5",
+          "title": "I like bubbles",
+          "displayPhrase": "I like bubbles.",
+          "spokenPhrase": "I like bubbles.",
+          "image": "./assets/cards/favorite-things/05-i-like-bubbles.jpg",
+          "audio": "./assets/audio/i-like-bubbles.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "emotions",
+      "title": "Emotions",
+      "group": "Communication",
+      "thumbnail": "./assets/thumbs/emotions.jpg",
+      "cards": [
+        {
+          "id": "emotions-1",
+          "title": "I am happy",
+          "displayPhrase": "I am happy.",
+          "spokenPhrase": "I am happy.",
+          "image": "./assets/cards/emotions/01-i-am-happy.jpg",
+          "audio": "./assets/audio/i-am-happy.mp3",
+          "number": 1
+        },
+        {
+          "id": "emotions-2",
+          "title": "I am sad",
+          "displayPhrase": "I am sad.",
+          "spokenPhrase": "I am sad.",
+          "image": "./assets/cards/emotions/02-i-am-sad.jpg",
+          "audio": "./assets/audio/i-am-sad.mp3",
+          "number": 2
+        },
+        {
+          "id": "emotions-3",
+          "title": "I am excited",
+          "displayPhrase": "I am excited.",
+          "spokenPhrase": "I am excited.",
+          "image": "./assets/cards/emotions/03-i-am-excited.jpg",
+          "audio": "./assets/audio/i-am-excited.mp3",
+          "number": 3
+        },
+        {
+          "id": "emotions-4",
+          "title": "I am tired",
+          "displayPhrase": "I am tired.",
+          "spokenPhrase": "I am tired.",
+          "image": "./assets/cards/emotions/04-i-am-tired.jpg",
+          "audio": "./assets/audio/i-am-tired.mp3",
+          "number": 4
+        },
+        {
+          "id": "emotions-5",
+          "title": "I am calm",
+          "displayPhrase": "I am calm.",
+          "spokenPhrase": "I am calm.",
+          "image": "./assets/cards/emotions/05-i-am-calm.jpg",
+          "audio": "./assets/audio/i-am-calm.mp3",
+          "number": 5
+        },
+        {
+          "id": "emotions-6",
+          "title": "I am frustrated",
+          "displayPhrase": "I am frustrated.",
+          "spokenPhrase": "I am frustrated.",
+          "image": "./assets/cards/emotions/06-i-am-frustrated.jpg",
+          "audio": "./assets/audio/i-am-frustrated.mp3",
+          "number": 6
+        }
+      ]
+    },
+    {
+      "id": "places-i-go",
+      "title": "Places I Go",
+      "group": "Routines",
+      "thumbnail": "./assets/thumbs/places-i-go.jpg",
+      "cards": [
+        {
+          "id": "places-i-go-1",
+          "title": "I am going to school",
+          "displayPhrase": "I am going to school.",
+          "spokenPhrase": "I am going to school.",
+          "image": "./assets/cards/places-i-go/01-i-am-going-to-school.jpg",
+          "audio": "./assets/audio/i-am-going-to-school.mp3",
+          "number": 1
+        },
+        {
+          "id": "places-i-go-2",
+          "title": "I am going to the park",
+          "displayPhrase": "I am going to the park.",
+          "spokenPhrase": "I am going to the park.",
+          "image": "./assets/cards/places-i-go/02-i-am-going-to-the-park.jpg",
+          "audio": "./assets/audio/i-am-going-to-the-park.mp3",
+          "number": 2
+        },
+        {
+          "id": "places-i-go-3",
+          "title": "I am going to the doctor",
+          "displayPhrase": "I am going to the doctor.",
+          "spokenPhrase": "I am going to the doctor.",
+          "image": "./assets/cards/places-i-go/03-i-am-going-to-the-doctor.jpg",
+          "audio": "./assets/audio/i-am-going-to-the-doctor.mp3",
+          "number": 3
+        },
+        {
+          "id": "places-i-go-4",
+          "title": "I am going to Grandma's house",
+          "displayPhrase": "I am going to Grandma's house.",
+          "spokenPhrase": "I am going to Grandma's house.",
+          "image": "./assets/cards/places-i-go/04-i-am-going-to-grandma-s-house.jpg",
+          "audio": "./assets/audio/i-am-going-to-grandma-s-house.mp3",
+          "number": 4
+        },
+        {
+          "id": "places-i-go-5",
+          "title": "I am going home",
+          "displayPhrase": "I am going home.",
+          "spokenPhrase": "I am going home.",
+          "image": "./assets/cards/places-i-go/05-i-am-going-home.jpg",
+          "audio": "./assets/audio/i-am-going-home.mp3",
+          "number": 5
+        }
+      ]
+    },
+    {
+      "id": "learning-words",
+      "title": "Learning Words",
+      "group": "Learning",
+      "thumbnail": "./assets/thumbs/learning-words.jpg",
+      "cards": [
+        {
+          "id": "learning-words-1",
+          "title": "I see a circle",
+          "displayPhrase": "I see a circle.",
+          "spokenPhrase": "I see a circle.",
+          "image": "./assets/cards/learning-words/01-i-see-a-circle.jpg",
+          "audio": "./assets/audio/i-see-a-circle.mp3",
+          "number": 1
+        },
+        {
+          "id": "learning-words-2",
+          "title": "I see a red ball",
+          "displayPhrase": "I see a red ball.",
+          "spokenPhrase": "I see a red ball.",
+          "image": "./assets/cards/learning-words/02-i-see-a-red-ball.jpg",
+          "audio": "./assets/audio/i-see-a-red-ball.mp3",
+          "number": 2
+        },
+        {
+          "id": "learning-words-3",
+          "title": "I see a blue cup",
+          "displayPhrase": "I see a blue cup.",
+          "spokenPhrase": "I see a blue cup.",
+          "image": "./assets/cards/learning-words/03-i-see-a-blue-cup.jpg",
+          "audio": "./assets/audio/i-see-a-blue-cup.mp3",
+          "number": 3
+        },
+        {
+          "id": "learning-words-4",
+          "title": "I can count to three",
+          "displayPhrase": "I can count to three.",
+          "spokenPhrase": "I can count to three.",
+          "image": "./assets/cards/learning-words/04-i-can-count-to-three.jpg",
+          "audio": "./assets/audio/i-can-count-to-three.mp3",
+          "number": 4
+        },
+        {
+          "id": "learning-words-5",
+          "title": "I can say my name",
+          "displayPhrase": "I can say my name.",
+          "spokenPhrase": "I can say my name.",
+          "image": "./assets/cards/learning-words/05-i-can-say-my-name.jpg",
+          "audio": "./assets/audio/i-can-say-my-name.mp3",
+          "number": 5
+        }
+      ]
+    }
+  ]
+}

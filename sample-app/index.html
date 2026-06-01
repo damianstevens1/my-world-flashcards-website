@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>My World Flashcards</title>
+  <meta
+    name="description"
+    content="A public sample personalized flashcard app showing how a child's real world can become tap-to-hear flashcards."
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <section id="splash" class="screen splash active" aria-label="Welcome screen">
+    <div class="spark spark-a">★</div>
+    <div class="spark spark-b">★</div>
+    <div class="spark spark-c">★</div>
+    <div class="splash-panel">
+      <div class="badge">Public Demo • Personalized Learning • Tap to Hear</div>
+      <h1>My World<br><span>Flashcards</span></h1>
+      <p class="subtitle">Sample Personalized Flashcard App</p>
+      <p class="demo-note">
+        Parents upload real photos, and we turn a child's world into personalized
+        flashcards with new action scenes.
+      </p>
+      <button id="startBtn" class="start">Start Demo</button>
+    </div>
+  </section>
+
+  <main id="library" class="screen library">
+    <header class="header">
+      <button id="goHome" class="round" aria-label="Home">⌂</button>
+      <div>
+        <h2>Pick a Flashcard Page</h2>
+        <p>Explore sample pages for Noah, family, needs, routines, animals, and learning words.</p>
+      </div>
+    </header>
+    <nav id="tabs" class="tabs" aria-label="Page groups"></nav>
+    <section id="pageGrid" class="page-grid" aria-label="Flashcard pages"></section>
+  </main>
+
+  <section id="pageScreen" class="screen page-screen">
+    <header class="header sticky">
+      <button id="backToPages" class="pill">← All Pages</button>
+      <div class="page-title-wrap">
+        <h2 id="pageTitle"></h2>
+        <p>Tap any card to open it larger and hear the sentence.</p>
+      </div>
+    </header>
+    <section id="cardGrid" class="card-grid" aria-label="Flashcards"></section>
+  </section>
+
+  <dialog id="cardDialog" class="card-dialog">
+    <article class="modal-card">
+      <button id="closeDialog" class="close" aria-label="Close">×</button>
+      <img id="modalImage" alt="">
+      <div class="modal-copy">
+        <p id="modalPhrase"></p>
+        <div class="modal-actions">
+          <button id="playAudio" class="listen">🔊 Hear it again</button>
+          <button id="nextCard" class="next-card">Next Card →</button>
+        </div>
+        <small id="audioStatus"></small>
+      </div>
+    </article>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>

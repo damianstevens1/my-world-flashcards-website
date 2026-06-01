@@ -1,0 +1,12 @@
+.env
+.env.*
+*.local
+*.log
+*.pid
+*.zip
+node_modules/
+dist/
+.netlify/
+tmp/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My World Flashcards</title>
+    <meta
+      name="description"
+      content="Personalized flashcard previews made from your child's real people, routines, places, and favorite things."
+    >
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="My World Flashcards home">
+        <span class="brand-mark">MW</span>
+        <span>My World Flashcards</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#how">How It Works</a>
+        <a href="#sample">Sample App</a>
+        <a href="#packages">Packages</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="photo-to-cards" id="how">
+        <div class="section-heading centered">
+          <p class="eyebrow">Personalized flashcards from your photos</p>
+          <h1>Turn Your Photos Into Custom Learning Flashcards</h1>
+          <p>
+            Choose a package, upload your photos, tell us who's who, and we'll
+            create personalized flashcards for your child.
+          </p>
+          <div class="hero-actions centered-actions">
+            <a class="button primary" href="#packages">Choose Your Package</a>
+            <a class="button secondary" href="./sample-app/index.html">Open Sample App</a>
+          </div>
+          <p class="fine-print">
+            Pick the option that fits before you submit photos or details.
+          </p>
+        </div>
+
+        <div class="transformation">
+          <article class="reference-card">
+            <img
+              src="./assets/images/sample-family-reference.png"
+              alt="Sample family reference photo"
+            >
+            <div>
+              <span class="card-label">Reference photo</span>
+              <h3>The sample family</h3>
+              <p>Used as the visual guide for the demo flashcards.</p>
+            </div>
+          </article>
+
+          <div class="arrow" aria-hidden="true">-></div>
+
+          <div class="example-cards" aria-label="Generated sample flashcards">
+            <article class="flashcard">
+              <img
+                src="./sample-app/assets/cards/daddy-and-me/04-daddy-is-playing-with-me.jpg"
+                alt="Daddy is playing with me flashcard"
+              >
+              <p>Daddy is playing with me.</p>
+            </article>
+            <article class="flashcard">
+              <img
+                src="./sample-app/assets/cards/mommy-and-me/04-mommy-is-helping-me.jpg"
+                alt="Mommy is helping me flashcard"
+              >
+              <p>Mommy is helping me.</p>
+            </article>
+            <article class="flashcard">
+              <img
+                src="./sample-app/assets/cards/grandma-and-me/02-grandma-is-reading-to-me.jpg"
+                alt="Grandma is reading to me flashcard"
+              >
+              <p>Grandma is reading to me.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sample-section" id="sample">
+        <div class="sample-copy">
+          <p class="eyebrow">See the finished demo</p>
+          <h2>Explore the sample app built from that family reference.</h2>
+          <p>
+            Tap through pages for family recognition, requests, routines, social
+            phrases, favorites, emotions, places, and learning words.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="./sample-app/index.html">Open Sample App</a>
+            <a class="button secondary" href="#packages">Choose Your Package</a>
+          </div>
+        </div>
+        <div class="app-preview" aria-label="Embedded sample app preview">
+          <iframe
+            src="./sample-app/index.html"
+            title="My World Flashcards sample app"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="process" aria-label="How it works">
+        <div>
+          <span>1</span>
+          <h2>Choose your package</h2>
+          <p>Select the preview, mini app, or full personalized app option.</p>
+        </div>
+        <div>
+          <span>2</span>
+          <h2>Upload your photos</h2>
+          <p>Add clear photos of your child, family, pets, routines, or favorite things.</p>
+        </div>
+        <div>
+          <span>3</span>
+          <h2>Tell us who's who</h2>
+          <p>Add short notes under each photo so we know who or what is pictured.</p>
+        </div>
+        <div>
+          <span>4</span>
+          <h2>Send your request</h2>
+          <p>Your request and photo files go through Basin so we can review them.</p>
+        </div>
+      </section>
+
+      <section class="start-section" id="packages">
+        <div class="section-heading">
+          <p class="eyebrow">Paid custom flashcard options</p>
+          <h2>Choose Your Custom Flashcard Package</h2>
+          <p>
+            Select one package, upload your photos, and add short notes so we
+            know who and what to include.
+          </p>
+        </div>
+
+        <form
+          class="basin-form"
+          id="basin-order-form"
+          action="https://usebasin.com/f/f62bc76ee68c"
+          method="POST"
+          enctype="multipart/form-data"
+          accept-charset="UTF-8"
+        >
+          <input type="hidden" name="source" value="My World Flashcards website">
+          <input type="hidden" name="requestType" value="Custom flashcard order">
+
+          <fieldset class="package-options">
+            <legend>Choose Your Custom Flashcard Package</legend>
+            <div class="package-grid">
+              <label class="package-card" for="package-sample">
+                <input
+                  class="package-radio"
+                  id="package-sample"
+                  type="radio"
+                  name="package"
+                  value="Sample Preview - $15"
+                  data-label="Sample Preview - $15"
+                  required
+                >
+                <span class="card-label">Starter option</span>
+                <strong>Sample Preview</strong>
+                <span class="package-price">$15</span>
+                <span class="package-description">Includes 3 personalized sample practice pages.</span>
+                <span class="best-for">Best for: seeing a small custom sample.</span>
+                <span class="button secondary package-button">Select This Package</span>
+              </label>
+
+              <label class="package-card" for="package-mini">
+                <input
+                  class="package-radio"
+                  id="package-mini"
+                  type="radio"
+                  name="package"
+                  value="Mini Personalized App - $49"
+                  data-label="Mini Personalized App - $49"
+                  required
+                >
+                <span class="card-label">Standard option</span>
+                <strong>Mini Personalized App</strong>
+                <span class="package-price">$49</span>
+                <span class="package-description">Includes a private personalized app with about 12-15 practice pages.</span>
+                <span class="best-for">Best for: a fuller personalized learning set.</span>
+                <span class="button secondary package-button">Select This Package</span>
+              </label>
+
+              <label class="package-card" for="package-full">
+                <input
+                  class="package-radio"
+                  id="package-full"
+                  type="radio"
+                  name="package"
+                  value="Full Personalized App - $89"
+                  data-label="Full Personalized App - $89"
+                  required
+                >
+                <span class="card-label">Premium option</span>
+                <strong>Full Personalized App</strong>
+                <span class="package-price">$89</span>
+                <span class="package-description">Includes a larger personalized app with about 25-30 practice pages.</span>
+                <span class="best-for">Best for: child, family, pets, routines, and more custom scenes.</span>
+                <span class="button secondary package-button">Select This Package</span>
+              </label>
+            </div>
+            <p class="selected-package-line">
+              Selected package: <strong id="selected-package-label">Choose one above</strong>
+            </p>
+          </fieldset>
+
+          <div class="form-section-title">
+            <h3>Your details</h3>
+            <p>Just the basics needed to create the custom flashcards.</p>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Parent/Guardian Name
+              <input type="text" name="parentName" autocomplete="name" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Child's First Name
+              <input type="text" name="childFirstName" required>
+            </label>
+            <label>
+              Child's Age
+              <input type="text" name="childAge" inputmode="numeric" required>
+            </label>
+          </div>
+
+          <label>
+            Tell us who's in the photos you'll attach
+            <textarea
+              name="photoOverview"
+              rows="4"
+              placeholder="Example: Landon is my son. Luna is our dog. He calls his grandfather G'Pa. He loves trucks, dinosaurs, and bedtime books."
+              required
+            ></textarea>
+          </label>
+
+          <label>
+            Anything special your child loves? <span class="optional">Optional</span>
+            <textarea
+              name="childLoves"
+              rows="3"
+              placeholder="Favorite toys, foods, places, shows, activities, books, or comfort items."
+            ></textarea>
+          </label>
+
+          <label>
+            Any family members, pets, routines, or favorite things we should include? <span class="optional">Optional</span>
+            <textarea
+              name="includeIdeas"
+              rows="3"
+              placeholder="Mom, Dad, Grandma, Uncle Andrew, Luna the dog, brushing teeth, bedtime, school, favorite blanket..."
+            ></textarea>
+          </label>
+
+          <label>
+            Any notes about the style or scenes you want? <span class="optional">Optional</span>
+            <textarea
+              name="styleNotes"
+              rows="3"
+              placeholder="Anything helpful about priorities, sensitivities, wording, or scene ideas."
+            ></textarea>
+          </label>
+
+          <fieldset class="photo-fields">
+            <legend>Upload photos</legend>
+            <p>
+              Upload clear photos of your child, family members, pets, favorite
+              toys, or routines you want included. Add a quick note under each
+              photo so we know who's who.
+            </p>
+            <div class="photo-grid">
+              <div class="photo-slot">
+                <label>
+                  Child Photo
+                  <input type="file" name="childPhoto" accept="image/*" required>
+                </label>
+                <img class="photo-preview" alt="" hidden>
+                <button class="photo-remove" type="button" hidden>Remove photo</button>
+                <label>
+                  Who/what is this?
+                  <input type="text" name="childPhotoDescription" placeholder="Landon - my son" required>
+                </label>
+              </div>
+
+              <div class="photo-slot">
+                <label>
+                  Family Photo <span class="optional">Optional</span>
+                  <input type="file" name="familyPhoto" accept="image/*">
+                </label>
+                <img class="photo-preview" alt="" hidden>
+                <button class="photo-remove" type="button" hidden>Remove photo</button>
+                <label>
+                  Who/what is this? <span class="optional">Optional</span>
+                  <input type="text" name="familyPhotoDescription" placeholder="Family photo - Dad, Mom, Landon">
+                </label>
+              </div>
+
+              <div class="photo-slot">
+                <label>
+                  Routine Photo <span class="optional">Optional</span>
+                  <input type="file" name="routinePhoto" accept="image/*">
+                </label>
+                <img class="photo-preview" alt="" hidden>
+                <button class="photo-remove" type="button" hidden>Remove photo</button>
+                <label>
+                  Who/what is this? <span class="optional">Optional</span>
+                  <input type="text" name="routinePhotoDescription" placeholder="Bedtime books, brushing teeth, favorite blanket">
+                </label>
+              </div>
+
+              <div class="photo-slot">
+                <label>
+                  Extra Photo <span class="optional">Optional</span>
+                  <input type="file" name="extraPhoto" accept="image/*">
+                </label>
+                <img class="photo-preview" alt="" hidden>
+                <button class="photo-remove" type="button" hidden>Remove photo</button>
+                <label>
+                  Who/what is this? <span class="optional">Optional</span>
+                  <input type="text" name="extraPhotoDescription" placeholder="Luna - our dog, Grandpa Joe, favorite toy">
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <label class="checkbox-line">
+            <input type="checkbox" name="photoConsent" required>
+            <span>
+              I confirm I have permission to upload these photos and use them for creating
+              this personalized preview/app.
+            </span>
+          </label>
+
+          <div class="payment-panel">
+            <div>
+              <h3>Next step</h3>
+              <p>
+                Basin will send your request and photo files to us. We'll review
+                the package, notes, and photos before following up.
+              </p>
+            </div>
+            <span class="button payment payment-note">Basin secure upload</span>
+          </div>
+
+          <button class="button primary submit-button" id="submit-button" type="submit">
+            Submit My Request
+          </button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <p class="fine-print">
+            First previews are usually ready within 24-48 hours after the request and payment are complete.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>My World Flashcards</p>
+      <a href="./sample-app/index.html">Sample App</a>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
