@@ -6,40 +6,74 @@
     <title>Thank You | My World Flashcards</title>
     <meta
       name="description"
-      content="Thank you for submitting a My World Flashcards custom request."
+      content="Your My World Flashcards request was submitted. Complete payment for the package you selected."
     >
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="My World Flashcards home">
+      <a class="brand" href="/" aria-label="My World Flashcards home">
         <span class="brand-mark">MW</span>
         <span>My World Flashcards</span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="./index.html#how">How It Works</a>
-        <a href="./index.html#packages">Packages</a>
-        <a href="./sample-app/index.html">Sample App</a>
+        <a href="/#how">How It Works</a>
+        <a href="/sample-app/app">Sample App</a>
+        <a href="/#packages">Packages</a>
       </nav>
     </header>
 
     <main class="thanks-page">
       <section class="thanks-panel">
         <p class="eyebrow">Request submitted</p>
-        <h1>Thank you - your request was submitted.</h1>
+        <h1>Thank you. Your photos are in.</h1>
         <p>
-          We received your package selection and photos. We'll review everything
-          and follow up with next steps.
+          We received your package selection and photo files through Basin.
+          Making the cards starts after the package is paid.
         </p>
-        <p>
-          Sample previews and custom apps are created manually, so the next
-          message will confirm what happens next for the package you selected.
+
+        <div id="payment-step" class="payment-step">
+          <h2>Complete payment</h2>
+          <p id="payment-summary">
+            The last step is paying for the package you selected. We start the cards after payment.
+          </p>
+          <p id="payment-fallback" class="payment-fallback">
+            We'll email a payment link for your package. If it does not arrive, write to
+            <a href="mailto:hello@myworldflashcards.com">hello@myworldflashcards.com</a>.
+          </p>
+          <a id="payment-link" class="button primary" hidden target="_blank" rel="noopener noreferrer">Complete payment</a>
+          <p id="payment-reference" class="fine-print" hidden></p>
+        </div>
+
+        <p class="fine-print">
+          First previews are usually ready within 24-48 hours after payment is complete.
+          Questions go to
+          <a href="mailto:hello@myworldflashcards.com">hello@myworldflashcards.com</a>.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="./index.html">Back to Home</a>
-          <a class="button secondary" href="./sample-app/index.html">Open Sample App</a>
+          <a class="button secondary" href="/">Back to Home</a>
+          <a class="button secondary" href="/sample-app/app">Open Sample App</a>
         </div>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <p>My World Flashcards</p>
+      <p class="footer-contact">
+        Questions? <a href="mailto:hello@myworldflashcards.com">hello@myworldflashcards.com</a>
+      </p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/sample-app/app">Sample App</a>
+        <a href="/contact">Contact</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+      </nav>
+    </footer>
+    <script src="./payments.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

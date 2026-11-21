@@ -58,7 +58,9 @@ button {
 }
 
 .splash-panel {
-  width: min(860px, 95vw);
+  width: min(860px, 100%);
+  max-width: 100%;
+  min-width: 0;
   padding: clamp(24px, 5vw, 62px);
   text-align: center;
   background: rgba(255, 255, 255, 0.96);
@@ -69,6 +71,7 @@ button {
 
 .badge {
   display: inline-block;
+  max-width: 100%;
   padding: 12px 20px;
   color: #0976ce;
   background: #e8f7ff;

@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My World Flashcards</title>
+    <title>My World Flashcards - Personalized Learning for Your Child</title>
     <meta
       name="description"
       content="Personalized flashcard previews made from your child's real people, routines, places, and favorite things."
     >
+    <meta property="og:title" content="My World Flashcards - Personalized Learning for Your Child">
+    <meta property="og:description" content="Create personalized flashcards using family photos, familiar faces, and meaningful objects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myworldflashcards.com">
+    <meta property="og:site_name" content="My World Flashcards">
+    <meta property="og:image" content="https://myworldflashcards.com/my-world-flashcards-family-preview-20260609.jpg">
+    <meta property="og:image:secure_url" content="https://myworldflashcards.com/my-world-flashcards-family-preview-20260609.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My World Flashcards">
+    <meta name="twitter:description" content="Personalized flashcards using family photos and familiar faces.">
+    <meta name="twitter:image" content="https://myworldflashcards.com/my-world-flashcards-family-preview-20260609.jpg">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
@@ -34,7 +51,7 @@
           </p>
           <div class="hero-actions centered-actions">
             <a class="button primary" href="#packages">Choose Your Package</a>
-            <a class="button secondary" href="./sample-app/index.html">Open Sample App</a>
+            <a class="button secondary" href="/sample-app/app">Open Sample App</a>
           </div>
           <p class="fine-print">
             Pick the option that fits before you submit photos or details.
@@ -91,13 +108,13 @@
             phrases, favorites, emotions, places, and learning words.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="./sample-app/index.html">Open Sample App</a>
+            <a class="button primary" href="/sample-app/app">Open Sample App</a>
             <a class="button secondary" href="#packages">Choose Your Package</a>
           </div>
         </div>
         <div class="app-preview" aria-label="Embedded sample app preview">
           <iframe
-            src="./sample-app/index.html"
+            src="./sample-app/app.html"
             title="My World Flashcards sample app"
             loading="lazy"
           ></iframe>
@@ -123,7 +140,7 @@
         <div>
           <span>4</span>
           <h2>Send your request</h2>
-          <p>Your request and photo files go through Basin so we can review them.</p>
+          <p>Your photos go through Basin. Then you complete payment for the package you picked.</p>
         </div>
       </section>
 
@@ -147,6 +164,7 @@
         >
           <input type="hidden" name="source" value="My World Flashcards website">
           <input type="hidden" name="requestType" value="Custom flashcard order">
+          <input type="hidden" name="orderReference" id="order-reference" value="">
 
           <fieldset class="package-options">
             <legend>Choose Your Custom Flashcard Package</legend>
@@ -158,6 +176,7 @@
                   type="radio"
                   name="package"
                   value="Sample Preview - $15"
+                  data-package-id="sample"
                   data-label="Sample Preview - $15"
                   required
                 >
@@ -176,6 +195,7 @@
                   type="radio"
                   name="package"
                   value="Mini Personalized App - $49"
+                  data-package-id="mini"
                   data-label="Mini Personalized App - $49"
                   required
                 >
@@ -194,6 +214,7 @@
                   type="radio"
                   name="package"
                   value="Full Personalized App - $89"
+                  data-package-id="full"
                   data-label="Full Personalized App - $89"
                   required
                 >
@@ -339,8 +360,10 @@
           <label class="checkbox-line">
             <input type="checkbox" name="photoConsent" required>
             <span>
-              I confirm I have permission to upload these photos and use them for creating
-              this personalized preview/app.
+              I confirm I have permission to upload these photos and that they will be used
+              only to create this personalized preview or app. I have read the
+              <a href="/privacy">Privacy Policy</a> and
+              <a href="/terms">Terms of Service</a>.
             </span>
           </label>
 
@@ -348,8 +371,8 @@
             <div>
               <h3>Next step</h3>
               <p>
-                Basin will send your request and photo files to us. We'll review
-                the package, notes, and photos before following up.
+                Submitting sends your request and photo files through Basin. The
+                next page is where you complete payment for the package you selected.
               </p>
             </div>
             <span class="button payment payment-note">Basin secure upload</span>
@@ -368,8 +391,17 @@
 
     <footer class="site-footer">
       <p>My World Flashcards</p>
-      <a href="./sample-app/index.html">Sample App</a>
+      <p class="footer-contact">
+        Questions? <a href="mailto:hello@myworldflashcards.com">hello@myworldflashcards.com</a>
+      </p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/sample-app/app">Sample App</a>
+        <a href="/contact">Contact</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+      </nav>
     </footer>
+    <script src="./payments.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

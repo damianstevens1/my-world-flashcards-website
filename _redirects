@@ -1,2 +1,6 @@
 /sample-app/ /sample-app/index.html 200
+/sample-app/app /sample-app/app.html 200
 /success /success.html 200
+/privacy /privacy.html 200
+/terms /terms.html 200
+/contact /contact.html 200
