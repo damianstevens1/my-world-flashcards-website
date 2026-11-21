@@ -105,8 +105,35 @@ if (orderForm) {
     }
   });
 
+  orderForm.querySelectorAll(".checkbox-line a").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
+  });
+
   orderForm.addEventListener("submit", () => {
     const submitButton = orderForm.querySelector('button[type="submit"]');
+    const emailInput = orderForm.querySelector('input[name="email"]');
+    const packageInput = orderForm.querySelector('input[name="package"]:checked');
+    const referenceInput = orderForm.querySelector('input[name="orderReference"]');
+    const orderReference =
+      typeof mwfCreateOrderReference === "function"
+        ? mwfCreateOrderReference()
+        : `mwf-${Date.now().toString(36)}`;
+
+    if (referenceInput && !referenceInput.value) {
+      referenceInput.value = orderReference;
+    }
+
+    if (typeof mwfRememberOrder === "function") {
+      const packageId = packageInput ? packageInput.dataset.packageId || "" : "";
+      mwfRememberOrder({
+        packageId,
+        formValue: packageInput ? packageInput.value : "",
+        email: emailInput ? emailInput.value.trim() : "",
+        orderReference: referenceInput ? referenceInput.value : orderReference
+      });
+    }
 
     if (submitButton) {
       submitButton.disabled = true;
@@ -117,4 +144,8 @@ if (orderForm) {
   });
 
   updateSelectedPackage();
+}
+
+if (document.getElementById("payment-step") && typeof mwfRenderPaymentStep === "function") {
+  mwfRenderPaymentStep();
 }
